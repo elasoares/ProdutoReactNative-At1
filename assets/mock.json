@@ -1,0 +1,304 @@
+{
+  "produtos": {
+    "-Az6Xp1wQmZ9sVy4EkNl": {
+      "nome": "Headset sem fio - Preto e Azul ",
+      "descricao": "Este headset sem fio combina a elegância do preto com o dinamismo do azul, criando um visual estiloso e sofisticado. Projetado para oferecer conforto ergonômico e áudio de alta qualidade, este dispositivo é ideal para sessões prolongadas de uso. Com sua combinação de cores única, é uma escolha tanto para os aficionados por tecnologia quanto para os fashionistas.",
+      "preco": 199.99,
+      "imagens": [
+        "https://img.freepik.com/fotos-gratis/fones-de-ouvido-azuis-isolados-no-fundo-branco_23-2147827665.jpg?size=626&ext=jpg&ga=GA1.1.1859077941.1697593809&semt=ais"
+      ],
+      "duvidas": [
+        {
+          "usuario": "Ana",
+          "data": "23-03-2024",
+          "pergunta": "Qual é a garantia deste produto?",
+          "resposta": "O produto possui garantia de um ano a partir da data de compra."
+        },
+        {
+          "usuario": "Pedro",
+          "data": "03-02-2024",
+          "pergunta": "Este produto é resistente à água?",
+          "resposta": "Sim, este produto possui certificação IP68, sendo resistente à água e poeira."
+        }
+      ],
+      "comentarios": [
+        {
+          "usuario": "Carlos",
+          "data": "03-12-2024",
+          "comentario": "Ótimo produto, estou muito satisfeito com a compra!",
+          "nota": 4.5
+        },
+        {
+          "usuario": "Mariana",
+          "data": "03-03-2024",
+          "comentario": "A entrega foi muito rápida, recomendo!",
+          "nota": 4.5
+        },
+        {
+          "usuario": "Lucas",
+          "data": "12-03-2024",
+          "comentario": "O desempenho da bateria do iPhone 13 é excelente, dura o dia todo com uso moderado!",
+          "nota": 4.5
+        }
+      ]
+    },
+    "-Bl8Yq2xSpVz5rQo7DmT": {
+      "nome": "Headset sem fio - Laranja",
+      "descricao": "Este headset sem fio em laranja é uma explosão de cor e energia. Projetado para os indivíduos que buscam se destacar da multidão, este dispositivo oferece um som excelente e conforto excepcional. Seu acabamento em laranja vibrante não apenas adiciona um toque de estilo, mas também garante que você seja notado onde quer que vá, seja em casa ou em movimento.",
+      "preco": 199.99,
+      "imagens": [
+        "https://img.freepik.com/fotos-gratis/homem-de-tiro-medio-posando-retrato-futurista_23-2151179007.jpg?size=626&ext=jpg"
+      ],
+      "duvidas": [
+        {
+          "usuario": "Luciana",
+          "data": "25-03-2024",
+          "pergunta": "Este modelo suporta carregamento sem fio?",
+          "resposta": "Sim, o Samsung Galaxy S21 suporta carregamento sem fio."
+        },
+        {
+          "usuario": "Rodrigo",
+          "data": "26-03-2024",
+          "pergunta": "Quantas câmeras possui o Samsung Galaxy S21?",
+          "resposta": "O Samsung Galaxy S21 possui um sistema de câmera tripla com 12 MP cada."
+        }
+      ],
+      "comentarios": [
+        {
+          "usuario": "Amanda",
+          "data": "03-03-2024",
+          "comentario": "Estou muito satisfeita com o desempenho do Samsung Galaxy S21, recomendo!",
+          "nota": 4.5
+        },
+        {
+          "usuario": "Felipe",
+          "data": "03-03-2024",
+          "comentario": "A tela do Samsung Galaxy S21 é simplesmente incrível, cores vibrantes e excelente resolução!",
+          "nota": 4.5
+        },
+        {
+          "usuario": "Thiago",
+          "data": "01-03-2024",
+          "comentario": "Produto de alta qualidade, recomendo a todos!",
+          "nota": 4.5
+        }
+      ]
+    },
+    "-Cm9Kp3zRqVx1sTl9FnY": {
+      "nome": "Headset sem fio - Prata",
+      "descricao": "Este headset sem fio em prata é uma combinação perfeita de elegância e desempenho. Com seu acabamento metálico brilhante, este dispositivo oferece um visual sofisticado que é igualado apenas pela qualidade de áudio superior que proporciona. Seja para chamadas de vídeo, música ou jogos, este headset é uma escolha elegante e confiável para satisfazer todas as suas necessidades auditivas.",
+      "preco": 299.99,
+      "imagens": [
+        "https://img.freepik.com/fotos-gratis/homem-de-tiro-medio-posando-retrato-futurista_23-2151178872.jpg?size=626&ext=jpg"
+      ],
+      "duvidas": [
+        {
+          "usuario": "Maria",
+          "data": "25-03-2024",
+          "pergunta": "O MacBook Pro possui entrada para cartão de memória?",
+          "resposta": "Não, o MacBook Pro não possui entrada para cartão de memória integrada."
+        },
+        {
+          "usuario": "João",
+          "data": "26-03-2024",
+          "pergunta": "Quantas portas USB o MacBook Pro possui?",
+          "resposta": "O MacBook Pro geralmente possui 4 portas USB-C."
+        }
+      ],
+      "comentarios": [
+        {
+          "usuario": "Ana",
+          "data": "26-03-2024",
+          "comentario": "Estou muito satisfeita com a performance do MacBook Pro, ótimo para trabalho e entretenimento!",
+          "nota": 4.5
+        },
+        {
+          "usuario": "Thiago",
+          "data": "01-03-2024",
+          "comentario": "Produto de alta qualidade, recomendo a todos!",
+          "nota": 4.5
+        }
+      ]
+    },
+    "-Dt5Rp4qOxZ8lNmW2SqE": {
+      "nome": "Headset sem fio - Verde ",
+      "descricao": "Este headset sem fio verde é uma escolha distinta para aqueles que procuram um toque de cor em seus acessórios de áudio. Combinando desempenho excepcional com um design moderno, este dispositivo oferece uma experiência sonora envolvente e confortável. Seu acabamento verde vibrante adiciona um elemento de estilo único, tornando-o uma escolha marcante para qualquer pessoa que valorize tanto forma quanto função.",
+      "preco": 299.99,
+      "imagens": [
+        "https://img.freepik.com/fotos-gratis/fones-de-ouvido-com-fundo-monocromatico-minimalista_23-2150763313.jpg?w=740&t=st=1711586153~exp=1711586753~hmac=e0a8a931f4adb6926db2ab9ce8cc6330b9a3a08482b4d5e17366b957799ebf0f"
+      ],
+      "duvidas": [
+        {
+          "usuario": "Patricia",
+          "data": "26-03-2024",
+          "pergunta": "Qual é a diferença entre a Canon EOS R5 e a Canon EOS R6?",
+          "resposta": "A Canon EOS R5 possui uma resolução de 45 megapixels e capacidade de gravação de vídeo 8K, enquanto a Canon EOS R6 possui uma resolução de 20 megapixels e capacidade de gravação de vídeo 4K. Além disso, a EOS R5 possui uma tela sensível ao toque articulada, enquanto a EOS R6 possui uma tela fixa."
+        },
+        {
+          "usuario": "Rafael",
+          "data": "28-03-2024",
+          "pergunta": "Qual é a faixa de ISO da Canon EOS R5?",
+          "resposta": "A Canon EOS R5 possui uma faixa de ISO nativa de 100 a 51200, expansível até 102400."
+        }
+      ],
+      "comentarios": [
+        {
+          "usuario": "Carolina",
+          "data": "02-03-2024",
+          "comentario": "A Canon EOS R5 superou todas as minhas expectativas, tanto em fotografia quanto em vídeo. Recomendo muito!",
+          "nota": 5
+        },
+        {
+          "usuario": "Marcos",
+          "data": "15-03-2024",
+          "comentario": "A qualidade de imagem da Canon EOS R5 é incrível, mesmo em condições de pouca luz.",
+          "nota": 4.8
+        }
+      ]
+    },
+    "-Fb0Zk7sPwY3xQmV6JpN": {
+      "nome": "Headset sem fio - Rosa",
+      "descricao": "Este headset sem fio é uma fusão de elegância e tecnologia. Com um acabamento rosa suave, este dispositivo não apenas oferece liberdade de movimento, mas também adiciona um toque de estilo ao seu conjunto de acessórios. Projetado para oferecer áudio imersivo e conforto duradouro, é perfeito para longas sessões de audição ou jogos.",
+      "preco": 499.99,
+      "imagens": [
+        "https://img.freepik.com/fotos-gratis/retrato-futurista-de-mulher-de-tiro-medio_23-2151178902.jpg?w=740&t=st=1711586420~exp=1711587020~hmac=5c42c22d54e125496c202746052eba2392286e466f2d899e5b4166c06e0de90e"
+      ],
+      "duvidas": [
+        {
+          "usuario": "Camila",
+          "data": "29-03-2024",
+          "pergunta": "O PlayStation 5 é retrocompatível com jogos de versões anteriores do PlayStation?",
+          "resposta": "Sim, o PlayStation 5 é retrocompatível com a maioria dos jogos do PlayStation 4."
+        },
+        {
+          "usuario": "Guilherme",
+          "data": "30-03-2024",
+          "pergunta": "Quais são as principais diferenças entre o PlayStation 5 padrão e o PlayStation 5 Digital Edition?",
+          "resposta": "O PlayStation 5 padrão possui uma unidade de disco Blu-ray, enquanto o PlayStation 5 Digital Edition é exclusivamente digital, sem unidade de disco."
+        }
+      ],
+      "comentarios": [
+        {
+          "usuario": "Fernanda",
+          "data": "05-03-2024",
+          "comentario": "O PlayStation 5 é simplesmente incrível, estou impressionada com os gráficos e a velocidade.",
+          "nota": 4.9
+        },
+        {
+          "usuario": "Pedro",
+          "data": "10-03-2024",
+          "comentario": "O controle DualSense do PlayStation 5 proporciona uma experiência de jogo única, com feedback tátil e gatilhos adaptáveis.",
+          "nota": 4.8
+        }
+      ]
+    },
+    "-Gr2Lx9pQaZ6sVtK8HmY": {
+      "nome": "Headset sem fio -  Vermelho e dourado",
+      "descricao": "Este headset sem fio é uma verdadeira declaração de estilo, apresentando uma combinação arrojada de vermelho e dourado. Além de sua aparência deslumbrante, oferece áudio imersivo e uma experiência de audição sem fio conveniente. Seu design elegante e cores vibrantes o tornam um acessório de destaque para qualquer amante de música ou jogador ávido.",
+      "preco": 399.99,
+      "imagens": [
+        "https://img.freepik.com/fotos-gratis/dispositivo-digital-de-fones-de-ouvido-vermelho-e-dourado_53876-97303.jpg?size=626&ext=jpg&ga=GA1.1.1859077941.1697593809&semt=ais"
+      ],
+      "duvidas": [
+        {
+          "usuario": "Fernando",
+          "data": "31-03-2024",
+          "pergunta": "Quais são as principais diferenças entre uma Smart TV 4K e uma TV Full HD?",
+          "resposta": "A principal diferença está na resolução da imagem. Enquanto uma TV Full HD possui uma resolução de 1920x1080 pixels, uma Smart TV 4K possui uma resolução quatro vezes maior, com 3840x2160 pixels, resultando em imagens mais nítidas e detalhadas."
+        },
+        {
+          "usuario": "Juliana",
+          "data": "01-04-2024",
+          "pergunta": "A Smart TV 4K é compatível com assistentes de voz?",
+          "resposta": "Sim, muitos modelos de Smart TV 4K são compatíveis com assistentes de voz como Amazon Alexa e Google Assistant, permitindo controlar a TV e acessar conteúdo usando comandos de voz."
+        }
+      ],
+      "comentarios": [
+        {
+          "usuario": "Carlos",
+          "data": "02-04-2024",
+          "comentario": "Estou muito satisfeito com a minha Smart TV 4K, a qualidade da imagem é impressionante e os recursos inteligentes são muito úteis.",
+          "nota": 4.7
+        },
+        {
+          "usuario": "Mariana",
+          "data": "05-04-2024",
+          "comentario": "A Smart TV 4K transformou minha sala de estar em um verdadeiro cinema em casa. Estou adorando!",
+          "nota": 4.8
+        }
+      ]
+    },
+    "-Jh7Tc5zPqVx9AfG3LnR": {
+      "nome": "Headset sem fio - Preto ",
+      "descricao": "Simplicidade e funcionalidade se unem neste headset sem fio preto. Com um design minimalista e acabamento em preto clássico, este dispositivo oferece áudio de alta qualidade e liberdade de movimento. Seu estilo discreto e elegante o torna uma escolha versátil para qualquer ocasião, seja para trabalho, lazer ou entretenimento.",
+      "preco": 199.99,
+      "imagens": [
+        "https://img.freepik.com/fotos-gratis/fones-de-ouvido-sem-fio-pretos-na-superficie-preta_417767-115.jpg?size=626&ext=jpg&ga=GA1.1.1859077941.1697593809&semt=ais"
+      ],
+      "duvidas": [
+        {
+          "usuario": "Ana",
+          "data": "03-04-2024",
+          "pergunta": "Quais são os principais diferenciais de um Forno Elétrico em comparação com um forno a gás?",
+          "resposta": "Os principais diferenciais são a rapidez no aquecimento, a distribuição uniforme do calor e a facilidade de limpeza. Os fornos elétricos geralmente aquecem mais rapidamente e mantêm uma temperatura mais estável, além de serem mais fáceis de limpar."
+        },
+        {
+          "usuario": "Rafael",
+          "data": "04-04-2024",
+          "pergunta": "É possível assar pizzas em um Forno Elétrico?",
+          "resposta": "Sim, é possível assar pizzas em um Forno Elétrico. Muitos modelos possuem uma função específica para pizza, que garante uma base crocante e um topo bem derretido."
+        }
+      ],
+      "comentarios": [
+        {
+          "usuario": "Pedro",
+          "data": "06-04-2024",
+          "comentario": "Meu novo Forno Elétrico tornou a minha vida na cozinha muito mais fácil. Estou adorando experimentar novas receitas!",
+          "nota": 4.5
+        },
+        {
+          "usuario": "Camila",
+          "data": "08-04-2024",
+          "comentario": "Estou impressionada com a versatilidade do meu Forno Elétrico. Ele assa, grelha e tosta com perfeição!",
+          "nota": 4.7
+        }
+      ]
+    },
+    "-Jh7Tc5zPqSA7AfG3LnW": {
+      "nome": "Headset sem fio - Azul",
+      "descricao": "Entre no mundo do entretenimento sem fio com este headset azul vibrante. Combinando um design moderno com tecnologia de ponta, este dispositivo oferece qualidade de som excepcional e liberdade de movimento. Seu acabamento em azul intenso adiciona um toque de personalidade a qualquer ambiente, garantindo uma experiência auditiva envolvente e confortável.",
+      "preco": 199.99,
+      "imagens": [
+        "https://img.freepik.com/fotos-gratis/homem-de-tiro-medio-posando-retrato-futurista_23-2151178984.jpg?size=626&ext=jpg"
+      ],
+      "duvidas": [
+        {
+          "usuario": "Ana",
+          "data": "03-04-2024",
+          "pergunta": "Quais são os principais diferenciais de um Forno Elétrico em comparação com um forno a gás?",
+          "resposta": "Os principais diferenciais são a rapidez no aquecimento, a distribuição uniforme do calor e a facilidade de limpeza. Os fornos elétricos geralmente aquecem mais rapidamente e mantêm uma temperatura mais estável, além de serem mais fáceis de limpar."
+        },
+        {
+          "usuario": "Rafael",
+          "data": "04-04-2024",
+          "pergunta": "É possível assar pizzas em um Forno Elétrico?",
+          "resposta": "Sim, é possível assar pizzas em um Forno Elétrico. Muitos modelos possuem uma função específica para pizza, que garante uma base crocante e um topo bem derretido."
+        }
+      ],
+      "comentarios": [
+        {
+          "usuario": "Pedro",
+          "data": "06-04-2024",
+          "comentario": "Meu novo Forno Elétrico tornou a minha vida na cozinha muito mais fácil. Estou adorando experimentar novas receitas!",
+          "nota": 4.5
+        },
+        {
+          "usuario": "Camila",
+          "data": "08-04-2024",
+          "comentario": "Estou impressionada com a versatilidade do meu Forno Elétrico. Ele assa, grelha e tosta com perfeição!",
+          "nota": 4.7
+        }
+      ]
+    }
+  }
+}
