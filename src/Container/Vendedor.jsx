@@ -10,14 +10,13 @@ const Vendedor = ({ route }) => {
       <View style={styles.especificacoesContainer}>
         {vendedor.map((vendedorInformacao, index) => (
           <View key={index}>
-            <Text style={styles.tituloInformacao}>Informações do Vendedor</Text>
-            <Text style={styles.vendedorInformacaoTexto}>Nome: {vendedorInformacao.nome}</Text>
-            <Text style={styles.vendedorInformacaoTexto}>Telefone: {vendedorInformacao.telefone}</Text>
-            <Text style={styles.vendedorInformacaoTexto}>E-mail: {vendedorInformacao.email}</Text>
+            <Text style={styles.vendedorInformacaoTexto}> {vendedorInformacao.nome}</Text>
+            <Text style={styles.vendedorInformacaoTexto}> {vendedorInformacao.telefone}</Text>
+            <Text style={styles.vendedorInformacaoTexto}> {vendedorInformacao.email}</Text>
           
            
               <View style={styles.avaliacaoContainer}>
-                <Text  style={styles.avaliacaoTexto}>Avaliação: </Text> 
+                <Text  style={styles.avaliacaoTexto}> </Text> 
                 <Text> {vendedorInformacao.avaliacao} </Text> 
                 <Ionicons name="star" size={24} color="#FFD700" />
                 </View>

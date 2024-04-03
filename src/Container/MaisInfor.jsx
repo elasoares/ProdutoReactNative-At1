@@ -28,12 +28,9 @@ import {
 
           ))}
            <View style={styles.compraEvalor}>
-          <View>
-            <Text style={styles.preco}>R$ {preco.toFixed(2)}</Text>
-          </View>
-          <TouchableOpacity style={styles.botaoDeCompraContainer}>
-            <Text style={styles.botaoDeCompra}>Comprar</Text>
-          </TouchableOpacity>
+            <Text style={styles.preco}> {preco.toFixed(2)}</Text>
+         
+         
         </View>
         </View>
 

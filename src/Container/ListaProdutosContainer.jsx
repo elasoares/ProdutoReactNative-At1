@@ -117,7 +117,6 @@ export default function ListaProdutoContainer({ action }) {
       </View>
 
       <View style={styles.containertituloProduto}>
-        <Text style={styles.tituloProduto}>Nossos produtos</Text>
 
       </View>
 

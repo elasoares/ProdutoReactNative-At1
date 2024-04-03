@@ -56,11 +56,7 @@ const Card = ({ produto, action }) => {
         ]}
       >
         <Text style={styles.produto}>{nome}</Text>
-        <Text style={styles.preco}>R$ {preco.toFixed(2)}</Text>
-        <View style={styles.infoDovalor}>
-          <Text>R$ {preco.toFixed(2)} à vista</Text>
-          <Text>ou 10x de R$ {valorParcelado}</Text>
-        </View>
+        <Text style={styles.preco}> {preco.toFixed(2)}</Text>
       </View>
     </TouchableOpacity>
   );

@@ -2,7 +2,6 @@ import { createDrawerNavigator } from "@react-navigation/drawer";
 import PilharODrawer from "./PilharODrawer";
 import Icon from "react-native-vector-icons/Ionicons";
 import { ListaProdutoPage } from "../page/ListaProdutoPage";
-import Sobre from "../page/Sobre";
 import  HeaderButton from '../component/HeaderButton';
 
 
@@ -19,15 +18,7 @@ const DrawerScreens = [
       },
     },
   },
-  {
-    name: "Sobre",
-    component: Sobre,
-    options: {
-      drawerIcon: ({ color }) => {
-        return <Icon name="business-outline" size={22} color={color} />;
-      },
-    },
-  },
+  
 
 ];
 
