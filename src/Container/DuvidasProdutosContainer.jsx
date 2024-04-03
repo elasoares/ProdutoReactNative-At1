@@ -1,8 +1,10 @@
+import { useEffect, useState } from "react";
 import {
   ScrollView,
   Text,
   View,
   StyleSheet,
+  ActivityIndicator,
 
   
 } from "react-native";
@@ -10,31 +12,39 @@ import {
 
 const DuvidasProdutosContainer = ({ route }) => {
   const { nome, duvidas } = route.params;
+  const [loading, setLoading] = useState(true);
+
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 1000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
 
   return (
     <ScrollView style={styles.container}>
-
-      <Text style={styles.tituloProduto}>{nome}</Text>
-
-      <View style={styles.especificacoesContainer}>
-        {duvidas.map((duvidas, index) => (
-          <View key={index} >
-          <Text style={styles.duvidasTexto}> {duvidas.usuario}</Text>
-            <Text style={styles.duvidasData}> {duvidas.data}</Text>
-            <Text style={styles.duvidas}> {duvidas.pergunta}</Text>
-
-           <Text style={styles.resposta}> {duvidas.resposta}</Text>
-      
-           
+      {loading ? (
+        <View style={[styles.container, styles.loadingContainer]}>
+          <ActivityIndicator size="large" color="#0000ff" />
+        </View>
+      ) : (
+        <View>
+          <Text style={styles.tituloProduto}>{nome}</Text>
+          <View style={styles.especificacoesContainer}>
+            {duvidas.map((duvida, index) => (
+              <View key={index}>
+                <Text style={styles.duvidasTexto}>{duvida.usuario}</Text>
+                <Text style={styles.duvidasData}>{duvida.data}</Text>
+                <Text style={styles.duvidas}>{duvida.pergunta}</Text>
+                <Text style={styles.resposta}>{duvida.resposta}</Text>
+              </View>
+            ))}
           </View>
-
-        ))}
-         
-      </View>
-
-     
-
-
+        </View>
+      )}
     </ScrollView>
   );
 };

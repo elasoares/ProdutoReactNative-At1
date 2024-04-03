@@ -3,43 +3,54 @@ import {
   Text,
   View,
   StyleSheet,
+  ActivityIndicator,
 } from "react-native";
-import { Ionicons } from '@expo/vector-icons'; 
+import React, { useState, useEffect } from "react";
 
 const ComentarioProdutoContainer = ({ route }) => {
   const { nome, comentarios } = route.params;
+  const [loading, setLoading] = useState(true);
+
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 1000);
+
+    return () => clearTimeout(timer);
+  }, []);
 
   return (
     <ScrollView style={styles.container}>
-
-      <Text style={styles.tituloProduto}>{nome}</Text>
-
-      <View style={styles.especificacoesContainer}>
-  {comentarios.map((comentario, index) => (
-    <View key={index} style={styles.comentarioContainer}>
-      <View style={styles.comentarioHeader}>
-      <View style={styles.headerContainer}>  
-        <Text style={ styles.comentarioTexto}>
-           {comentario.usuario}
-        </Text>
-
-        <View style={styles.containerAvaliacao}>
-        <Text style={styles.comentarioTexto}> {comentario.nota}</Text>
-       
+      {loading ? (
+        <View style={[styles.container, styles.loadingContainer]}>
+          <ActivityIndicator size="large" color="#0000ff" />
         </View>
-      </View>
-      <Text style={styles.comentariosData}>{comentario.data}</Text>
-      </View>
+      ) : (
+        <View>
+          <Text style={styles.tituloProduto}>{nome}</Text>
+          <View style={styles.especificacoesContainer}>
+            {comentarios.map((comentario, index) => (
+              <View key={index} style={styles.comentarioContainer}>
+                <View style={styles.comentarioHeader}>
+                  <View style={styles.headerContainer}>
+                    <Text style={styles.comentarioTexto}>
+                      {comentario.usuario}
+                    </Text>
 
-     
-      <Text style={styles.comentarios}>{comentario.comentario}</Text>
-    </View>
-  ))}
-</View>
+                    <View style={styles.containerAvaliacao}>
+                      <Text style={styles.comentarioTexto}>{comentario.nota}</Text>
+                    </View>
+                  </View>
+                  <Text style={styles.comentariosData}>{comentario.data}</Text>
+                </View>
 
-     
-
-
+                <Text style={styles.comentarios}>{comentario.comentario}</Text>
+              </View>
+            ))}
+          </View>
+        </View>
+      )}
     </ScrollView>
   );
 };

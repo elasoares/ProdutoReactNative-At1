@@ -1,29 +1,39 @@
-import React from 'react';
-import { View, Text, StyleSheet, ScrollView } from 'react-native';
-import { Ionicons } from '@expo/vector-icons'; 
+import React, { useState, useEffect } from 'react';
+import { View, Text, StyleSheet, ScrollView, ActivityIndicator } from 'react-native';
 
 const Vendedor = ({ route }) => {
   const { vendedor } = route.params;
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 1000);
+
+    return () => clearTimeout(timer);
+  }, []);
 
   return (
     <ScrollView style={styles.container}>
-      <View style={styles.especificacoesContainer}>
-        {vendedor.map((vendedorInformacao, index) => (
-          <View key={index}>
-            <Text style={styles.vendedorInformacaoTexto}> {vendedorInformacao.nome}</Text>
-            <Text style={styles.vendedorInformacaoTexto}> {vendedorInformacao.telefone}</Text>
-            <Text style={styles.vendedorInformacaoTexto}> {vendedorInformacao.email}</Text>
-          
-           
+      {loading ? (
+        <View style={[styles.container, styles.loadingContainer]}>
+          <ActivityIndicator size="large" color="#0000ff" />
+        </View>
+      ) : (
+        <View style={styles.especificacoesContainer}>
+          {vendedor.map((vendedorInformacao, index) => (
+            <View key={index}>
+              <Text style={styles.vendedorInformacaoTexto}> {vendedorInformacao.nome}</Text>
+              <Text style={styles.vendedorInformacaoTexto}> {vendedorInformacao.telefone}</Text>
+              <Text style={styles.vendedorInformacaoTexto}> {vendedorInformacao.email}</Text>
               <View style={styles.avaliacaoContainer}>
-                <Text  style={styles.avaliacaoTexto}> </Text> 
+                <Text style={styles.avaliacaoTexto}>Avaliação:</Text> 
                 <Text> {vendedorInformacao.avaliacao} </Text> 
-                </View>
-              
-        
-          </View>
-        ))}
-      </View>
+              </View>
+            </View>
+          ))}
+        </View>
+      )}
     </ScrollView>
   );
 };

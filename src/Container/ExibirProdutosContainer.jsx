@@ -1,14 +1,17 @@
+import React, { useState } from "react";
 import {
   ScrollView,
   Text,
   View,
   StyleSheet,
   Image,
-  TouchableOpacity,
+  ActivityIndicator,
+  
 } from "react-native";
 
 
 const ExibirProdutosContainer = (props) => {
+  const [loading, setLoading] = useState(true);
   const { params } = props.route || {};
   const { nome, descricao, imagens } = params || {};
 
@@ -16,17 +19,31 @@ const ExibirProdutosContainer = (props) => {
     uri: imagens && imagens.length > 0 ? imagens[0] : null,
   };
 
+  React.useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 1000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <ScrollView style={styles.container}>
-     
-      <View style={styles.imageContainer}>
-        <Image style={styles.image} source={configImage} />
-      </View>
-      <View style={styles.detailsContainer}>
-        <Text style={styles.nome}>{nome}</Text>
-        <Text style={styles.descricao}> {descricao}</Text>
-       
-      </View>
+      {loading ? (
+        <View style={[styles.container, styles.loadingContainer]}>
+          <ActivityIndicator size="large" color="#0000ff" />
+        </View>
+      ) : (
+        <View>
+          <View style={styles.imageContainer}>
+            <Image style={styles.image} source={configImage} />
+          </View>
+          <View style={styles.detailsContainer}>
+            <Text style={styles.nome}>{nome}</Text>
+            <Text style={styles.descricao}> {descricao}</Text>
+          </View>
+        </View>
+      )}
     </ScrollView>
   );
 };

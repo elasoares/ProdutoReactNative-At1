@@ -1,42 +1,62 @@
+import { useEffect, useState } from "react";
 import {
     ScrollView,
     Text,
     View,
     StyleSheet,
     TouchableOpacity,
+    ActivityIndicator,
     
   } from "react-native";
 
   
   const MaisInfor = ({ route }) => {
     const { nome, preco, especificacaotecnicas } = route.params;
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+      const timer = setTimeout(() => {
+        setLoading(false);
+      }, 1000);
+  
+      return () => clearTimeout(timer);
+    }, []);
   
     return (
       <ScrollView style={styles.container}>
- 
-        <Text style={styles.tituloProduto}>{nome}</Text>
-
-        <View style={styles.especificacoesContainer}>
-          {especificacaotecnicas.map((especificacao, index) => (
-            <View key={index} >
-              <Text style={styles.especificacaoTexto}> {especificacao.conectividade}</Text>
-              <Text style={styles.especificacaoTexto}> {especificacao.microfone}</Text>
-              <Text style={styles.especificacaoTexto}> {especificacao.design}</Text>
-              <Text style={styles.especificacaoTexto}> {especificacao.bateria}</Text>
-              <Text style={styles.especificacaoTexto}> {especificacao.compatibilidade}</Text>
+        {loading ? (
+          <View style={[styles.container, styles.loadingContainer]}>
+            <ActivityIndicator size="large" color="#0000ff" />
+          </View>
+        ) : (
+          <View>
+            <Text style={styles.tituloProduto}>{nome}</Text>
+            <View style={styles.especificacoesContainer}>
+              {especificacaotecnicas.map((especificacao, index) => (
+                <View key={index}>
+                  <Text style={styles.especificacaoTexto}>
+                    {especificacao.conectividade}
+                  </Text>
+                  <Text style={styles.especificacaoTexto}>
+                    {especificacao.microfone}
+                  </Text>
+                  <Text style={styles.especificacaoTexto}>
+                    {especificacao.design}
+                  </Text>
+                  <Text style={styles.especificacaoTexto}>
+                    {especificacao.bateria}
+                  </Text>
+                  <Text style={styles.especificacaoTexto}>
+                    {especificacao.compatibilidade}
+                  </Text>
+                </View>
+              ))}
+              <View style={styles.compraEvalor}>
+                <Text style={styles.preco}>{preco.toFixed(2)}</Text>
+              </View>
             </View>
-
-          ))}
-           <View style={styles.compraEvalor}>
-            <Text style={styles.preco}> {preco.toFixed(2)}</Text>
-         
-         
-        </View>
-        </View>
-
-       
-
- 
+          </View>
+        )}
       </ScrollView>
     );
   };
