@@ -18,7 +18,6 @@ const Vendedor = ({ route }) => {
               <View style={styles.avaliacaoContainer}>
                 <Text  style={styles.avaliacaoTexto}> </Text> 
                 <Text> {vendedorInformacao.avaliacao} </Text> 
-                <Ionicons name="star" size={24} color="#FFD700" />
                 </View>
               
         

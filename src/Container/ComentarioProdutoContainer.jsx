@@ -25,7 +25,7 @@ const ComentarioProdutoContainer = ({ route }) => {
 
         <View style={styles.containerAvaliacao}>
         <Text style={styles.comentarioTexto}> {comentario.nota}</Text>
-        <Ionicons name="star" size={24} color="#FFD700" />
+       
         </View>
       </View>
       <Text style={styles.comentariosData}>{comentario.data}</Text>

@@ -6,12 +6,11 @@ import {
   Image,
   TouchableOpacity,
 } from "react-native";
-import { useNavigation } from '@react-navigation/native';
+
 
 const ExibirProdutosContainer = (props) => {
-  const navigation = useNavigation();
   const { params } = props.route || {};
-  const { nome, descricao, imagens, preco } = params || {};
+  const { nome, descricao, imagens } = params || {};
 
   const configImage = {
     uri: imagens && imagens.length > 0 ? imagens[0] : null,
