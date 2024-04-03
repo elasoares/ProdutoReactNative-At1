@@ -2,7 +2,7 @@ import { createDrawerNavigator } from "@react-navigation/drawer";
 import PilharODrawer from "./PilharODrawer";
 import Icon from "react-native-vector-icons/Ionicons";
 import { ListaProdutoPage } from "../page/ListaProdutoPage";
-import  HeaderButton from '../component/HeaderButton';
+import  HeaderButton from '../navigation/HeaderButton';
 
 
 
